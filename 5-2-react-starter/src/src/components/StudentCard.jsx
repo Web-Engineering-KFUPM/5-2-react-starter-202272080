@@ -1,10 +1,10 @@
 
-  function StudentCard() {
+  function StudentCard(props) {
     return (
       <div>
-        <h3>studenName:ALI</h3>
-        <p>studentId: 202272080</p>
-        <p>studentDepartment:c&m</p>
+        <h3>studenName:{props.studenName}</h3>
+        <p>studentId:{props.studentId}</p>
+        <p>studentDepartment:{props.studentDepartment}</p>
        
       </div>
     );
